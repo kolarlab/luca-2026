@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta author="Michal Kolář">
+
+	<title>
+        Computer simulations of prebiotic predecessors of the ribosome
+    </title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.mhk.css" id="theme">
+
+</head>
+	<body>
+        <div class="reveal">
+	        <div class="slides">
+<!--
+============ SLIDES START HERE ============
+-->
+
+
+<section>
+    <p>
+        a talk given on conference A road to LUCA at Charles University, Prague, Czechia
+    </p>
+    <p>
+        Created using <a href="https://revealjs.com" target="_blank">Reveal.js</a>.
+    </p>
+    <p style="margin-top: 2em">
+        Use the right arrow to start browsing the slides.
+    </p>
+</section>
+
+
+
+<section data-background-image="./media/protein-rna-interface.png"
+         data-background-position="left"
+         data-background-size="contain"
+         data-background-color="black">
+
+    <div style="width:30%; float:right; text-align: left;">
+        <img src="./media/logos/ufch-w.png" style="width:90%">
+        <h4 style="color:white; margin-top:2em">
+            Computer simulations of prebiotic predecessors of the ribosome
+        </h4>
+        <h4 style="color:white; margin-top:5em; margin-bottom:1em">
+           Michal Kolář
+        </h4>
+        <p style="color: gray; font-size:small;margin-top:4em;">
+            Left: interface between protoribosomal RNA and short fragments of r-protein uL22
+        </p>
+    </div>
+</section>
+
+
+
+<section>
+    <img src="./media/team-sitting.jpg">
+    <div style="display: flex; justify-content: space-between; margin-top: 1em; align-items: center">
+        <img src="./media/logos/gacr.png" style="height: 80px; margin-right: 2em">
+        <img src="./media/logos/avh.png" style="height: 80px; margin-right: 2em">
+        <img src="./media/logos/czexpats.png" style="height: 90px">
+    </div>
+    <div style="display: flex; justify-content: space-between; align-items: center">
+        <img src="./media/logos/it4i.png" style="height: 60px; margin-right: 2em">
+        <img src="./media/logos/lumi.png" style="height: 60px; margin-right: 2em">
+    </div>
+    <!--
+    -->
+</section>
+
+
+<section data-background-color="black"
+         data-background-image="./media/bohr.jpg"
+         data-background-size="contain"
+         data-background-position="left">
+    <div class="rightcol fragment">
+        <h2 style="margin-top:3em; color: silver">&bdquo;Prediction is very difficult, especially if it’s about the future.&ldquo;</h2>
+        <p style="font-size:14pt; color:gray; margin-top: 200px">
+            <a href="https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/" target="_blank" style="color:gray">foto AB Lagrelius & Westphal</a>
+        </p>
+    </div>
+</section>
+
+
+<section data-background-image="./media/simulation-scheme.png"
+         data-background-size="80%"
+         data-background-position="center">
+</section>
+
+
+<section data-background-image="./media/lumi-area.jpg">
+    <p style="margin-top: 19em; background-color: rgba(255,255,255,0.4)">
+        foto: Mikael Kanerva <a href="https://www.lumi-supercomputer.eu/media/#fancybox-custom-gallery-8" target="_blank">link</a>
+    </p>
+</section>
+
+
+<section data-background-image="./media/lumi.jpg">
+    <p style="text-align:right; margin-top:15em">
+        2500+1500 nodes<br>
+        0.55 exaFLOP<br>
+        € 144 million<br>
+    </p>
+    <p>
+        foto: Fade Creative <a href="https://www.lumi-supercomputer.eu/media/#fancybox-custom-gallery-1" target="_blank">link</a>
+    </p>
+    <!--
+    -->
+</section>
+
+
+<section data-background-video="./media/ribosome.mp4"
+         data-background-video-loop="true"
+         data-background-color="white"
+         data-background-size="contain">
+    &nbsp;
+</section>
+
+
+<section data-background-image="./media/protoribosomes/protoribosomes.png"
+         data-background-size="80%"
+         data-background-position="center">
+</section>
+
+
+
+<section data-background-image="./media/llps/llps2.png"
+         data-background-size="70%"
+         data-background-position="center">
+</section>
+
+
+<section class="center">
+    <div class="r-stack">
+        <img src="./media/mg-arg/mg-arg-1.png" style="width:100%">
+        <img src="./media/mg-arg/mg-arg-2.png" style="width:100%" class="fragment">
+        <img src="./media/mg-arg/mg-arg-3.png" style="width:100%" class="fragment">
+    </div>
+    <div style="font-size:smaller">
+    Kolář, Hlouchová, <i>Evolution of protein-RNA interactions</i> <a href="https://pubmed.ncbi.nlm.nih.gov/40628174/" target=_blank">PMID 40628174</a>
+    </div>
+</section>
+
+
+<section style="text-align: left" data-background-color="#B0EEB0">
+    <h1>Q & A</h1>
+    <div>
+    <h4 style="margin-top: 1em">What is the structure and dynamics of the protoribosomes?</h4>
+    Similar to the exant ribosome.
+    </div>
+    <div class="fragment">
+    <h4 style="margin-top: 1em">How do peptides interact with the prRNA?</h4>
+    They crawl on the prRNA surface.
+    </div>
+    <div class="fragment">
+    <h4 style="margin-top: 1em">What happens with MG ions on the prRNA upon heating?</h4>
+    Nothing.
+    </div>
+    <div class="fragment">
+    <h4 style="margin-top: 1em">How does the protoribosome thermally unfold?</h4>
+    Sequentially, starting by disrupting inter-stem contacts.
+    </div>
+</section>
+
+
+<section class="center">
+    <img src="./media/pl22/pl22.png" style="width:60%">
+</section>
+
+
+<section data-background-video="./media/protein-rna.mp4"
+         data-background-video-loop="true"
+         data-background-color="black"
+         data-background-size="contain">
+    &nbsp;
+</section>
+
+
+<section class="center">
+    <img src="./media/contacts/wt3.png" style="width:80%">
+</section>
+
+
+<section class="center">
+    <img src="./media/contacts/wt2.png" style="width:80%">
+</section>
+
+
+<section class="center">
+    <img src="./media/dpr-dab/dpr-dab.png" style="width:80%">
+</section>
+
+
+<section data-background-image="./media/contacts/wt3-mut3.png"
+         data-background-size="80%"
+         data-background-position="center">
+</section>
+
+
+
+<section data-background-image="./media/protein-rna-interface.png"
+         data-background-position="left"
+         data-background-size="contain"
+         data-background-color="black">
+
+    <div style="width:30%; float:right; text-align: left;">
+        <img src="./media/logos/ufch-w.png" style="width:90%">
+        <h4 style="color:white; margin-top:2em">
+            Computer simulations of prebiotic predecessors of the ribosome
+        </h4>
+        <h4 style="color:white; margin-top:5em; margin-bottom:1em">
+           Michal Kolář
+        </h4>
+        <h4 style="color:white; margin-top:1em; margin-bottom:1em">
+           kolarh@vscht.cz
+        </h4>
+        </p>
+    </div>
+</section>
+
+
+
+<!--
+============ SLIDES END HERE ============
+-->
+            </div>
+        </div>
+
+		<script src="dist/reveal.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+                autoPlayMedia: true,
+                controls: false,
+                progress: true, 
+                slideNumber: true,
+                transition: 'none', 
+                backgroundTransition: 'none',
+                center: false,
+			});
+		</script>
+	</body>
+</html>
+        
